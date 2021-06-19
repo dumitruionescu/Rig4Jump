@@ -1,0 +1,137 @@
+2021-06-15 21:49:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE EQUIPMENT ( ID_EQ INT NOT NULL AUTO_INCREMENT PRIMARY KEY, NAME_EQ VARCHAR(250) NOT NULL FOREIGN[*] KEY REFERENCES RENTALS (ID_RE), DESCRIPTION TEXT, CAPOTA VARCHAR(250) NOT NULL, VOALURA_PR VARCHAR(250) NOT NULL, VOALURA_SC VARCHAR(250) NOT NULL, AP_SIG VARCHAR(250) NOT NULL, PRICE DOUBLE DEFAULT NULL, CANTITATE BIGINT DEFAULT NULL, PROFIL_IMG TEXT )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE equipment ( id_eq INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name_eq VARCHAR(250) NOT NULL FOREIGN KEY REFERENCES rentals (id_re), description TEXT, capota VARCHAR(250) NOT NULL, voalura_pr VARCHAR(250) NOT NULL, voalura_sc VARCHAR(250) NOT NULL, ap_sig VARCHAR(250) NOT NULL, price DOUBLE DEFAULT NULL, cantitate BIGINT DEFAULT NULL, profil_img TEXT ) [42001-200]
+2021-06-15 22:20:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE EQUIPMENT ( ID_EQ INT NOT NULL AUTO_INCREMENT PRIMARY KEY, NAME_EQ VARCHAR(250) NOT NULL FOREIGN[*] KEY REFERENCES RENTALS (ID_RE), DESCRIPTION TEXT, CAPOTA VARCHAR(250) NOT NULL, VOALURA_PR VARCHAR(250) NOT NULL, VOALURA_SC VARCHAR(250) NOT NULL, AP_SIG VARCHAR(250) NOT NULL, PRICE DOUBLE DEFAULT NULL, CANTITATE BIGINT DEFAULT NULL, PROFIL_IMG TEXT )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE equipment ( id_eq INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name_eq VARCHAR(250) NOT NULL FOREIGN KEY REFERENCES rentals (id_re), description TEXT, capota VARCHAR(250) NOT NULL, voalura_pr VARCHAR(250) NOT NULL, voalura_sc VARCHAR(250) NOT NULL, ap_sig VARCHAR(250) NOT NULL, price DOUBLE DEFAULT NULL, cantitate BIGINT DEFAULT NULL, profil_img TEXT ) [42001-200]
+2021-06-16 14:41:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE EQUIPMENT ( ID_EQ INT NOT NULL AUTO_INCREMENT PRIMARY KEY, NAME_EQ VARCHAR(250) NOT NULL FOREIGN[*] KEY REFERENCES RENTALS (ID_RE), DESCRIPTION TEXT, CAPOTA VARCHAR(250) NOT NULL, VOALURA_PR VARCHAR(250) NOT NULL, VOALURA_SC VARCHAR(250) NOT NULL, AP_SIG VARCHAR(250) NOT NULL, PRICE DOUBLE DEFAULT NULL, CANTITATE BIGINT DEFAULT NULL, PROFIL_IMG TEXT )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE equipment ( id_eq INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name_eq VARCHAR(250) NOT NULL FOREIGN KEY REFERENCES rentals (id_re), description TEXT, capota VARCHAR(250) NOT NULL, voalura_pr VARCHAR(250) NOT NULL, voalura_sc VARCHAR(250) NOT NULL, ap_sig VARCHAR(250) NOT NULL, price DOUBLE DEFAULT NULL, cantitate BIGINT DEFAULT NULL, profil_img TEXT ) [42001-200]
+2021-06-16 14:48:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE EQUIPMENT ( ID_EQ INT NOT NULL AUTO_INCREMENT PRIMARY KEY, NAME_EQ VARCHAR(250) NOT NULL FOREIGN[*] KEY REFERENCES RENTALS (ID_RE), DESCRIPTION TEXT, CAPOTA VARCHAR(250) NOT NULL, VOALURA_PR VARCHAR(250) NOT NULL, VOALURA_SC VARCHAR(250) NOT NULL, AP_SIG VARCHAR(250) NOT NULL, PRICE DOUBLE DEFAULT NULL, CANTITATE BIGINT DEFAULT NULL, PROFIL_IMG TEXT )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE equipment ( id_eq INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name_eq VARCHAR(250) NOT NULL FOREIGN KEY REFERENCES rentals (id_re), description TEXT, capota VARCHAR(250) NOT NULL, voalura_pr VARCHAR(250) NOT NULL, voalura_sc VARCHAR(250) NOT NULL, ap_sig VARCHAR(250) NOT NULL, price DOUBLE DEFAULT NULL, cantitate BIGINT DEFAULT NULL, profil_img TEXT ) [42001-200]
+2021-06-16 19:22:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE EQUIPMENT ( ID_EQ INT NOT NULL AUTO_INCREMENT PRIMARY KEY, NAME_EQ VARCHAR(250) NOT NULL FOREIGN[*] KEY REFERENCES RENTALS (ID_RE), DESCRIPTION TEXT, CAPOTA VARCHAR(250) NOT NULL, VOALURA_PR VARCHAR(250) NOT NULL, VOALURA_SC VARCHAR(250) NOT NULL, AP_SIG VARCHAR(250) NOT NULL, PRICE DOUBLE DEFAULT NULL, CANTITATE BIGINT DEFAULT NULL, PROFIL_IMG TEXT )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE equipment ( id_eq INT NOT NULL AUTO_INCREMENT PRIMARY KEY, name_eq VARCHAR(250) NOT NULL FOREIGN KEY REFERENCES rentals (id_re), description TEXT, capota VARCHAR(250) NOT NULL, voalura_pr VARCHAR(250) NOT NULL, voalura_sc VARCHAR(250) NOT NULL, ap_sig VARCHAR(250) NOT NULL, price DOUBLE DEFAULT NULL, cantitate BIGINT DEFAULT NULL, profil_img TEXT ) [42001-200]
+2021-06-16 22:21:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO EQUIPMENT (NAME_EQ, DESCRIPTION,CAPOTA,VOALURA_PR,VOALURA_SC,AP_SIG, PRICE, CANTITATE,PROFIL_IMG) VALUES ('Velocity 79', 'The Velocity'S[*] RIGID CROSSBRACED STRUCTURE AND EXTREMELY RESPONSIVE CONTROLS MAKE IT A LONG-STANDING STAPLE IN THE HIGH-PERFORMANCE CANOPY PILOTING COMMUNITY. INCREDIBLY CLEAN AERODYNAMICS GIVE THIS POWERFUL WING A WIDE SPEED RANGE AND AMAZING PERFORMANCE OPPORTUNITIES WHEN IN THE RIGHT HANDS. FROM OPENING TO LANDING THIS IS A VERY CAPABLE BUT VERY DEMANDING CANOPY.',
+'V303 MICRON','VELOCITY 79','SMART 99','EXPERT CYPRES 2',20, 50, 'HTTP:                                                                                                                 
+
+INSERT INTO EQUIPMENT (NAME_EQ, DESCRIPTION,CAPOTA,VOALURA_PR,VOALURA_SC,AP_SIG, PRICE, CANTITATE,PROFIL_IMG) VALUES ('Sabre 135', 'The Sabre2 is a powerful semi-elliptical 9-cell canopy that is a great choice for current intermediate and experienced jumpers. Our most popular all-around canopy, the Sabre2 feels aggressive at higher wing loadings but is quite tame when lightly loaded. This canopy is best known for its powerful flare and wide speed range. With neat packing and proper deployment technique, Sabre2 openings are consistently soft and predictable. The Sabre2 has a steeper glide and a longer recovery arc than the flatter gliding Pulse or Stiletto and is an excellent choice for those wanting a bit more aggressive piloting experience but are not interested in the demands \nof the Katana or Velocity.',
+'V309 Micron', 'Sabre 135', 'OP 143','Expert Cypres 2',20, 50, 'https://cdn1.bigcommerce.com/n-ww20x/5au1rcr/products/249/images/472/curv_56853.1394259683.1280.1280__40408.1395707499.380.380.jpg');
+
+INSERT INTO EQUIPMENT (NAME_EQ, DESCRIPTION,CAPOTA,VOALURA_PR,VOALURA_SC,AP_SIG, PRICE, CANTITATE,PROFIL_IMG) VALUES ('Crossfire 119', 'The Crossfire. NZ Aerosports' IDENTITY. A TRULY UNIQUE DESIGN.THIS IS HOW WE DO JUSTICE TO THE CROSSFIRE LEGEND.UNPARALLELED OPENINGS, A LONGER RECOVERY ARC AND INCREDIBLE SWOOP DISTANCE COMBINE IN A 9-CELL FULLY ELLIPTICAL WING THAT's 100% devoted to the art of having fun. If you'RE READY TO STEP IT UP A NOTCH FROM YOUR SAFIRE OR WANT TO UPGRADE YOUR CROSSFIRE 2, THE CROSSFIRE 3 IS FOR YOU. IT's time to take to the sky the way you were meant to, on a 9-cell sports machine that keeps it as real as you do.',
+'V306 Micron','Crossfire 119','Smart LPV 150', 'Expert Cypres 2',20, 50, 'http://cdn.shopify.com/s/files/1/0860/5100/products/vector_3_grande.jpg?v=1455562206');
+
+INSERT INTO EQUIPMENT (NAME_EQ, DESCRIPTION,CAPOTA,VOALURA_PR,VOALURA_SC,AP_SIG, PRICE, CANTITATE,PROFIL_IMG) VALUES ('Safire 139', 'The ultimate gateway wing, the Safire 3 is the most modern mainstream all-rounder canopy to hit the market. She’s not just different. She’s been engineered to fly better. More efficiently. More responsively. For the intermediate jumper she will make your flying experience come alive with quick turns and a powerful flare, but loaded lightly she is the vehicle to carry any beginner or the most nervous canopy pilot to the ground safely. Plus you'LL BE LOOKING SHARP IN THE SKY WITH THIS ENTRANCE LEVEL WING THAT HAS ALL THE BELLS AND WHISTLES OF AN ADVANCED SPORTS CANOPY.', 'V310 MICRON','SAFIRE 139','PD 126','EXPERT CYPRES 2',20, 50, 'HTTP:                                                                                                                 )"; expected "[, ::, AT, FORMAT, *, /, %, +, -, ||, ~, !~, NOT, LIKE, ILIKE, REGEXP, IS, IN, BETWEEN, AND, OR, ,, )"; SQL statement:
+INSERT INTO equipment (name_eq, description,capota,voalura_pr,voalura_sc,ap_sig, price, cantitate,profil_img) VALUES ('Velocity 79', 'The Velocity's rigid crossbraced structure and extremely responsive controls make it a long-standing staple in the high-performance canopy piloting community. Incredibly clean aerodynamics give this powerful wing a wide speed range and amazing performance opportunities when in the right hands. From opening to landing this is a very capable but very demanding canopy.',
+'V303 Micron','Velocity 79','Smart 99','Expert Cypres 2',20, 50, 'http://www.chutingstar.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/u/p/uptvectorv3.jpg');
+
+INSERT INTO equipment (name_eq, description,capota,voalura_pr,voalura_sc,ap_sig, price, cantitate,profil_img) VALUES ('Sabre 135', 'The Sabre2 is a powerful semi-elliptical 9-cell canopy that is a great choice for current intermediate and experienced jumpers. Our most popular all-around canopy, the Sabre2 feels aggressive at higher wing loadings but is quite tame when lightly loaded. This canopy is best known for its powerful flare and wide speed range. With neat packing and proper deployment technique, Sabre2 openings are consistently soft and predictable. The Sabre2 has a steeper glide and a longer recovery arc than the flatter gliding Pulse or Stiletto and is an excellent choice for those wanting a bit more aggressive piloting experience but are not interested in the demands \nof the Katana or Velocity.',
+'V309 Micron', 'Sabre 135', 'OP 143','Expert Cypres 2',20, 50, 'https://cdn1.bigcommerce.com/n-ww20x/5au1rcr/products/249/images/472/curv_56853.1394259683.1280.1280__40408.1395707499.380.380.jpg');
+
+INSERT INTO equipment (name_eq, description,capota,voalura_pr,voalura_sc,ap_sig, price, cantitate,profil_img) VALUES ('Crossfire 119', 'The Crossfire. NZ Aerosports' identity. A truly unique design.This is how we do justice to the Crossfire legend.Unparalleled openings, a longer recovery arc and incredible swoop distance combine in a 9-cell fully elliptical wing that's 100% devoted to the art of having fun. If you're ready to step it up a notch from your Safire or want to upgrade your Crossfire 2, the Crossfire 3 is for you. It's time to take to the sky the way you were meant to, on a 9-cell sports machine that keeps it as real as you do.',
+'V306 Micron','Crossfire 119','Smart LPV 150', 'Expert Cypres 2',20, 50, 'http://cdn.shopify.com/s/files/1/0860/5100/products/vector_3_grande.jpg?v=1455562206');
+
+INSERT INTO equipment (name_eq, description,capota,voalura_pr,voalura_sc,ap_sig, price, cantitate,profil_img) VALUES ('Safire 139', 'The ultimate gateway wing, the Safire 3 is the most modern mainstream all-rounder canopy to hit the market. She’s not just different. She’s been engineered to fly better. More efficiently. More responsively. For the intermediate jumper she will make your flying experience come alive with quick turns and a powerful flare, but loaded lightly she is the vehicle to carry any beginner or the most nervous canopy pilot to the ground safely. Plus you'll be looking sharp in the sky with this entrance level wing that has all the bells and whistles of an advanced sports canopy.', 'V310 Micron','Safire 139','PD 126','Expert Cypres 2',20, 50, 'http://www.chutingstar.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/u/p/upt_vector_v3.jpg') [42001-200]
+2021-06-16 22:37:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE RENTALS ( ID_RE INT NOT NULL AUTO_INCREMENT PRIMARY KEY, ID_US INT NOT NULL FOREIGN[*] KEY REFERENCES USERS(ID_US), ID_EQ INT NOT NULL FOREIGN KEY REFERENCES EQUIPMENT(ID_EQ), START_DATE DATETIME, END_DATE DATETIME, PRICE DOUBLE DEFAULT NULL )"; expected "AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE rentals ( id_re INT NOT NULL AUTO_INCREMENT PRIMARY KEY, id_us INT NOT NULL FOREIGN KEY REFERENCES users(id_us), id_eq INT NOT NULL FOREIGN KEY REFERENCES equipment(id_eq), start_date DATETIME, end_date DATETIME, price DOUBLE DEFAULT NULL ) [42001-200]
+2021-06-16 22:51:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "EQUIPMENT" because "CONSTRAINT_6BEF, CONSTRAINT_620" depends on it; SQL statement:
+DROP TABLE IF EXISTS equipment [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:228)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:601)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:72)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:131)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:91)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:85)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:76)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at home.rent.rig4jump.Rig4jumpApplication.main(Rig4jumpApplication.java:10)
+2021-06-17 17:30:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "LOCATIONS" already exists; SQL statement:
+CREATE TABLE locations ( id_lo INT AUTO_INCREMENT PRIMARY KEY, name_lo VARCHAR(250) NOT NULL, phone_lo VARCHAR(30) NOT NULL, email_lo VARCHAR(50), adress_lo VARCHAR(250) NOT NULL, program VARCHAR(250) NOT NULL , facilities VARCHAR (500) NOT NULL, link TEXT ) [42101-200]
+2021-06-17 17:31:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "PROGRAM" not found; SQL statement:
+INSERT INTO locations (name_lo,phone_lo,email_lo,adress_lo,program,facilities,link) VALUES ('TNT Brothers Sports Club Association','+40371100300','office@tnt-brothers.ro','Clinceni Aerodrome, Ilfov, Street Aeroportului, no.114, Cornetu, Google Maps: Cornetu 077060', 'Thursday, Friday, Saturday and Sunday from 08:30 - sunset','equipment maintenance and repair, tandem skydiving, skydiving school, experienced skydivers, special projects ','https://www.tnt-brothers.ro') [42122-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:453)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.table.Table.getColumn(Table.java:703)
+	at org.h2.command.Parser.parseColumn(Parser.java:1450)
+	at org.h2.command.Parser.parseColumnList(Parser.java:1435)
+	at org.h2.command.Parser.parseInsertGivenTable(Parser.java:1804)
+	at org.h2.command.Parser.parseInsert(Parser.java:1749)
+	at org.h2.command.Parser.parsePrepared(Parser.java:954)
+	at org.h2.command.Parser.parse(Parser.java:843)
+	at org.h2.command.Parser.parse(Parser.java:815)
+	at org.h2.command.Parser.prepareCommand(Parser.java:738)
+	at org.h2.engine.Session.prepareLocal(Session.java:657)
+	at org.h2.engine.Session.prepareCommand(Session.java:595)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1235)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:212)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:201)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.springframework.jdbc.datasource.init.ScriptUtils.executeSqlScript(ScriptUtils.java:601)
+	at org.springframework.jdbc.datasource.init.ResourceDatabasePopulator.populate(ResourceDatabasePopulator.java:254)
+	at org.springframework.jdbc.datasource.init.DatabasePopulatorUtils.execute(DatabasePopulatorUtils.java:49)
+	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.runScripts(DataSourceScriptDatabaseInitializer.java:72)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.runScripts(AbstractScriptDatabaseInitializer.java:131)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:91)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyDataScripts(AbstractScriptDatabaseInitializer.java:85)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:76)
+	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:65)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:337)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1336)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1325)
+	at home.rent.rig4jump.Rig4jumpApplication.main(Rig4jumpApplication.java:10)
