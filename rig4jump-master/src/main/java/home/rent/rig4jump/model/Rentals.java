@@ -1,15 +1,17 @@
 package home.rent.rig4jump.model;
 
+import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Date;
+import lombok.Data;
 
 @Entity
 @Table(name = "rentals")
+@Data
 public class Rentals {
 
     @Id
@@ -24,7 +26,6 @@ public class Rentals {
     private Date end_date;
     @Column(name = "price")
     private Double price;
-
 
     public Long getId_re() {
         return id_re;
@@ -74,4 +75,3 @@ public class Rentals {
         this.price = price;
     }
 }
-

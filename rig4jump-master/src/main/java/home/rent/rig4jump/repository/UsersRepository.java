@@ -7,5 +7,6 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @Tag(name = "4. Users Endpoints")
 @RepositoryRestResource
-public interface UsersRepository  extends JpaRepository<Users, Long> {
+public interface UsersRepository extends JpaRepository<Users, Long> {
+
 }

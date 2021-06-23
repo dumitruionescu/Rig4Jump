@@ -1,18 +1,20 @@
 package home.rent.rig4jump.model;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import lombok.Data;
 
 @Entity
 @Table(name = "equipment")
+@Data
 public class Equipment {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
+
   private Long id_eq;
   @Column(name = "name_eq")
   private String name_eq;
@@ -32,7 +34,6 @@ public class Equipment {
   private String voalura_sc;
   @Column(name = "ap_sig")
   private String ap_sig;
-
 
   public Long getId_eq() {
     return id_eq;
@@ -107,7 +108,8 @@ public class Equipment {
   }
 
   public String getAp_sig() {
-    return ap_sig; }
+    return ap_sig;
+  }
 
   public void setAp_sig(String ap_sig) {
     this.ap_sig = ap_sig;

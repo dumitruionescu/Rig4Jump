@@ -1,29 +1,29 @@
 package home.rent.rig4jump.model;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import java.util.Date;
+import lombok.Data;
 
 @Entity
 @Table(name = "history")
+@Data
 public class History {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id_re;
+    private Long id_hi;
     private Long id_us;
     private Long id_eq;
 
-    public Long getId_re() {
-        return id_re;
+    public Long getId_hi() {
+        return id_hi;
     }
 
-    public void setId_re(Long id_re) {
-        this.id_re = id_re;
+    public void setId_hi(Long id_hi) {
+        this.id_hi = id_hi;
     }
 
     public Long getId_us() {

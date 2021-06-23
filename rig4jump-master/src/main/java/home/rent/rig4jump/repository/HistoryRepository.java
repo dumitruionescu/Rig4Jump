@@ -7,6 +7,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
 @Tag(name = "2. History Endpoints")
 @RepositoryRestResource
-public interface HistoryRepository  extends JpaRepository<History, Long> {
+public interface HistoryRepository extends JpaRepository<History, Long> {
+
 }
 
